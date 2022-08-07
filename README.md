@@ -19,9 +19,12 @@ Paste the command below and add an email address linked to your github account.
     Enter passphrase (empty for no passphrase): 
     Enter same passphrase again:
 ```
-You will then be prompted to enter the path and name of your existing or new file you need to save your ssh key. for instance /home/username/.ssh/file-name where [file-name] is the name if the file you need to save your ssh key. Then press enter.
+NB:
+    -You can presse enter throughout to use defaults.
+        or 
+    -You will then be prompted to enter the path and name of your existing or new file you need to save your ssh key. for instance /home/username/.ssh/file-name where [file-name] is the name if the file you need to save your ssh key. Then press enter.
 
-## Installing from pip
+Appearance of your terminal
 
 ```bash
 # Your keys appear like this
@@ -56,12 +59,22 @@ The key's randomart image is:
 
 ## Display the existing or newly made ssh key
 
-Here an example
+Cop the output and follow the steps to add SSH Key to github.
 
 ```bash
     $ cat ~/.ssh/file-name.pub
         ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDEgJhakH0sUfyWwaoSBCgDIanMDBDxea3VcpxJZTjZJ your-github-email-address
 ```
+
+## Adding SSH Key to GitHub
+
+Steps:
+1. Go to Settings
+2. SSH and GPG Keys
+3. On SSH Keys click New SSH Key
+4. Add the name of the key and paste the private ssh key here.
+5. Click Add SSH Key
+
 
 ## Contributing
 
