@@ -9,7 +9,7 @@
 How to successfully add ssh keys to your linux machine and connect them to your GitHub account)
 
 
-## Key Generation
+## Generate fingerprint
 
 Paste the command below and add an email address linked to your github account.
 
@@ -27,21 +27,22 @@ NB:
 Appearance of your terminal
 
 ```bash
-# Your keys appear like this
+# Your output appears like this
 The key fingerprint is:
-SHA256:7bHf5wcoraPjaAO5thuS7TjiQC/rFEfProfh/U811cQ your-github-email-address
+    SHA256:7bHf5wcoraPjaAO5thuS7TjiQC/rFEfProfh/U811cQ your-github-email-address
+
 The key's randomart image is:
-+--[ED25519 256]--+
-|               ..|
-|               oE|
-|  . .         . .|
-| . o o   .   .   |
-|  + =.o S o.o.   |
-|   @++   ..+o..  |
-|  =.=*o   +o   . |
-| o .=+=...o. .  o|
-|  ..+=.+++... .oo|
-+----[SHA256]-----+
+    +--[ED25519 256]--+
+    |               ..|
+    |               oE|
+    |  . .         . .|
+    | . o o   .   .   |
+    |  + =.o S o.o.   |
+    |   @++   ..+o..  |
+    |  =.=*o   +o   . |
+    | o .=+=...o. .  o|
+    |  ..+=.+++... .oo|
+    +----[SHA256]-----+
 ```
 
        
