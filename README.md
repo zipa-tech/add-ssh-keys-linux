@@ -4,7 +4,7 @@
 
 # [add-SSH-keys-linux]()
 
-[![Made in Tanzania](https://img.shields.io/badge/made%20in-tanzania-008751.svg?style=flat-square)](https://github.com/Tanzania-Developers-Community/made-in-tanzania)
+[![Tanzania Developers](https://img.shields.io/badge/made%20in-tanzania-008751.svg?style=flat-square)](https://github.com/Tanzania-Developers-Community/made-in-tanzania)
 
 How to successfully add ssh keys to your linux machine and connect them to your GitHub account)
 
