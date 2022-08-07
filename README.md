@@ -14,10 +14,10 @@ How to successfully add ssh keys to your linux machine and connect them to your 
 Paste the command below and add an email address linked to your github account.
 
 ```bash
-1. $ ssh-keygen -t ed25519 -C "your-github-email-address"
-    Enter file in which to save the key (/home/username/.ssh/id_ed25519):
-    Enter passphrase (empty for no passphrase): 
-    Enter same passphrase again:
+$ ssh-keygen -t ed25519 -C "your-github-email-address"
+Enter file in which to save the key (/home/username/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again:
 ```
 NB:
     -You can presse enter throughout to use defaults.
@@ -49,7 +49,7 @@ The key's randomart image is:
 ## Start the ssh-agent in the background
 
 ```bash
-    $ eval "$(ssh-agent -s)"
+$ eval "$(ssh-agent -s)"
 ```
 
 ## Add your SSH private key to the ssh-agent. 
@@ -63,8 +63,8 @@ The key's randomart image is:
 Cop the output and follow the steps to add SSH Key to github.
 
 ```bash
-    $ cat ~/.ssh/file-name.pub
-        ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDEgJhakH0sUfyWwaoSBCgDIanMDBDxea3VcpxJZTjZJ your-github-email-address
+$ cat ~/.ssh/file-name.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDEgJhakH0sUfyWwaoSBCgDIanMDBDxea3VcpxJZTjZJ your-github-email-address
 ```
 
 ## Adding SSH Key to GitHub
