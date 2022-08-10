@@ -55,7 +55,7 @@ $ eval "$(ssh-agent -s)"
 ## Add your SSH private key to the ssh-agent. 
 
 ```python
- $ ssh-add ~/.ssh/
+ $ ssh-add ~/.ssh/file-name
 ```
 
 ## Display the existing or newly made ssh key
