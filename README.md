@@ -50,6 +50,9 @@ The key's randomart image is:
 
 ```bash
 $ eval "$(ssh-agent -s)"
+    
+# windows
+> start-ssh-agent
 ```
 
 ## Add your SSH private key to the ssh-agent. 
